@@ -1,6 +1,7 @@
 set(MICROVPR_TESTS
     test_blif_parser
     test_netlist_evaluator
+    test_tech_mapper
 )
 
 foreach(test_name ${MICROVPR_TESTS})

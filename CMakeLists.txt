@@ -14,6 +14,7 @@ add_library(microvpr_core
     src/netlist.cpp
     src/blif_parser.cpp
     src/netlist_evaluator.cpp
+    src/tech_mapper.cpp
 )
 target_include_directories(microvpr_core PUBLIC include)
 target_compile_options(microvpr_core PRIVATE -Wall -Wextra)

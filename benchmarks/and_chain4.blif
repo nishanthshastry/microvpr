@@ -1,0 +1,10 @@
+.model chain4
+.inputs a b c d
+.outputs y
+.names a b t1
+11 1
+.names t1 c t2
+11 1
+.names t2 d y
+11 1
+.end
